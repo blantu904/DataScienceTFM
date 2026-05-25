@@ -1,0 +1,15 @@
+# Datos reales — nunca al repo
+data/RegistroDatosIctus.xlsx
+ETL/source/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# ETL intermedios (se regeneran)
+ETL/output/
+ETL/logs/
+
+# LaTeX
+*.aux *.bbl *.bcf *.blg *.log *.out *.run.xml *.toc
